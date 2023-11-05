@@ -1,0 +1,13 @@
+.mail {
+    height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.mail .shape {
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 4px;
+    width: 20px;
+}

@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Add this line to hide the vertical scroll bar on the body */
+}
+
+.index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto; /* Change 'overflow' to 'overflow-y' and set it to 'auto' */
+}
+
+.index .group-wrapper {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100%; /* Change '100vh' to '100%' */
+    overflow-y: auto; /* Change 'overflow' to 'overflow-y' and set it to 'auto' */
+}
+
+.index .group {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.index .overlap-group {
+    height: 100%;
+    position: relative;
+    top: -1px;
+    width: 1345px;
+}
+
+.index .rectangle {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    height: 642px;
+    left: 383px;
+    position: absolute;
+    top: 0;
+    width: 962px;
+}
+
+.index .image {
+    height: 30vh; /* 修改这一行为30vh，以防止.image的高度加上.top的值超过100vh */
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 60vh; /* 修改这一行为60vh，以防止.image的高度加上.top的值超过100vh */
+    width: 495px;
+}
+
+.index .text-wrapper {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 455px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+    white-space: nowrap;
+}
+
+.index .rectangle-2 {
+    height: 643px;
+    left: 867px;
+    object-fit: cover;
+    position: absolute;
+    top: 1px;
+    width: 480px;
+}
+
+.index .div {
+    color: #333333;
+    font-family: "Inter", Helvetica, serif;
+    font-size: 20px;
+    font-weight: 500;
+    left: 455px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 151px;
+    white-space: nowrap;
+}
+
+.index .rectangle-3 {
+    border: 2px solid;
+    border-color: #333333;
+    border-radius: 10px;
+    height: 42px;
+    left: 454px;
+    position: absolute;
+    top: 195px;
+    width: 322px;
+}
+
+.index .mail-instance {
+    left: 739px !important;
+    position: absolute !important;
+    top: 204px !important;
+}
+
+.index .text-wrapper-3 {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 455px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 257px;
+    white-space: nowrap;
+}
+
+.index .rectangle-4 {
+    border: 2px solid;
+    border-color: #333333;
+    border-radius: 10px;
+    height: 42px;
+    left: 454px;
+    position: absolute;
+    top: 301px;
+    width: 322px;
+}
+
+.index .text-wrapper-4 {
+    color: #33333380;
+    font-family: "Inter", Helvetica, serif;
+    font-size: 16px;
+    font-weight: 400;
+    left: 469px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 315px;
+    white-space: nowrap;
+}
+
+.index .text-wrapper-5 {
+    color: #468cc2;
+    font-family: "Inter", Helvetica, serif;
+    font-size: 13px;
+    font-weight: 500;
+    left: 455px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    text-decoration: underline;
+    top: 349px;
+}
+
+.index .lock-instance {
+    left: 739px !important;
+    position: absolute !important;
+    top: 310px !important;
+}
+
+.index .rectangle-5 {
+    height: 40px;
+    left: 455px;
+    position: absolute;
+    top: 395px;
+    width: 320px;
+}
+
+.index .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 589px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 405px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.index .don-t-have-an {
+    color: transparent;
+    font-family: "Inter", Helvetica, serif;
+    font-size: 15px;
+    font-weight: 500;
+    left: 505px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 456px;
+    white-space: nowrap;
+}
+
+.index .span {
+    color: #000000;
+}
+
+.index .text-wrapper-7 {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.index .text-wrapper-8 {
+    color: #468cc2;
+    text-decoration: underline;
+}
